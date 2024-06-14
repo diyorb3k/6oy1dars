@@ -1,6 +1,7 @@
 import React from "react";
 import rasim3 from "../components/img/button (1).svg";
 import rasim4 from "../components/img/amico.png";
+import rasim5 from "../components/img/icon bd (1).svg";
 
 const Bace = () => {
   return (
@@ -24,6 +25,7 @@ const Bace = () => {
           <img className="heroimg" src={rasim4} alt="" />
         </div>
       </div>
+      <h4>Product was Built Specifically for You</h4>
     </div>
   );
 };
