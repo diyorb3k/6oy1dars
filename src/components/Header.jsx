@@ -1,3 +1,4 @@
+import React from "react";
 import rasm1 from "../components/img/Group 190.svg";
 import rasm from "../components/img/Product.svg";
 import rasim2 from "../components/img/Frame 49 (1).svg";

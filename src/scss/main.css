@@ -91,4 +91,111 @@
   background-color: #02897a;
   padding: 10px 22px;
   border: none;
+}
+
+.work {
+  color: #22343d;
+  max-width: 527px;
+  width: 100%;
+  padding-top: 145px;
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: left;
+}
+
+.page {
+  padding-bottom: 45px;
+  padding-top: 18px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: #22343d;
+}
+
+.hero {
+  display: flex;
+}
+
+.get {
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 15px 41px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  background-color: #02897a;
+  border: none;
+  color: #fff;
+}
+
+.btn_grup {
+  display: flex;
+  gap: 31px;
+}
+
+.imgbtn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.heroimg {
+  padding-top: 25px;
+}
+
+.product {
+  margin-bottom: 57px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  max-width: 539px;
+  width: 100%;
+  margin-top: 114px;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  padding-bottom: 69px;
+}
+
+.cardpg {
+  max-width: 240px;
+  width: 100%;
+}
+
+.firist {
+  padding-bottom: 13px;
+  padding-top: 40px;
+  color: #22343d;
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 33px;
+  text-align: left;
+}
+
+.chaild {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  color: #22343d;
+}
+
+.page_grup {
+  margin-top: 69px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
 }/*# sourceMappingURL=main.css.map */
