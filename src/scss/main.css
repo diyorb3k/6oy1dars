@@ -6,6 +6,10 @@
   font-family: Poppins1;
   src: url("../components/fonts/Poppins-ExtraLight.ttf");
 }
+@font-face {
+  font-family: Inter;
+  src: url("../components/fonts/Poppins-Medium.ttf");
+}
 * {
   margin: 0;
   padding: 0;
@@ -198,4 +202,433 @@
   justify-content: center;
   align-items: center;
   justify-content: space-between;
+}
+
+.text {
+  padding-top: 114px;
+  padding-bottom: 66px;
+  color: #22343d;
+  max-width: 539px;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.card_pagee {
+  max-width: 240px;
+  width: 100%;
+}
+
+.firist {
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 33px;
+  text-align: left;
+  color: #22343d;
+}
+
+.chaild {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  color: #22343d;
+}
+
+.econ_pch {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.singup {
+  justify-content: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  padding: 15px 34px;
+  background-color: #02897a;
+  border: none;
+  color: #fff;
+  margin-bottom: 129px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.btn_heroo {
+  margin-bottom: 129px;
+  text-align: center;
+  justify-content: center;
+}
+
+.contents {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.contents h3 {
+  justify-content: center;
+  text-align: center;
+  color: #22343d;
+  font-family: Poppins;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 51px;
+  text-align: left;
+}
+.contents p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: left;
+}
+
+.card_grupa {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card_righ1 {
+  overflow: hidden;
+  margin-bottom: 117px;
+  border-radius: 8px;
+  border: 1px solid #dedede;
+  max-width: 348px;
+  width: 100%;
+  margin-top: 33px;
+}
+.card_righ1 img {
+  overflow: hidden;
+}
+.card_righ1 p {
+  padding-top: 24px;
+  padding-bottom: 12px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: #22343d;
+  padding-left: 24px;
+}
+.card_righ1 p span {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+}
+.card_righ1 h5 {
+  padding-left: 24px;
+  max-width: 294px;
+  width: 100%;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: left;
+  color: #22343d;
+  padding-bottom: 40px;
+}
+.card_righ1 h5 .the {
+  max-width: 294px;
+  width: 100%;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 40px;
+  color: #02897a !important;
+}
+.card_righ1 .the {
+  max-width: 294px;
+  width: 100%;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 40px;
+  color: #02897a !important;
+}
+
+.textt {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.textt h4 {
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+  justify-content: center;
+  font-family: Poppins;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 51px;
+  text-align: left;
+}
+.textt p {
+  margin-bottom: 50px;
+  padding-bottom: 8px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  text-align: center;
+}
+
+.page_card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pch {
+  max-width: 323px;
+  width: 100%;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2509803922);
+  border-radius: 8px;
+  transition: 0.3s ease;
+  margin-bottom: 150px;
+  padding: 24px 70px 32px 74px;
+}
+.pch h5 {
+  padding-left: 61px;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: left;
+  color: #22343d;
+}
+.pch .price {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+}
+.pch h1 {
+  color: #02897a;
+  padding-left: 10px;
+  font-family: Poppins;
+  font-size: 76px;
+  font-weight: 700;
+  line-height: 100px;
+  letter-spacing: 0.200000003px;
+  text-align: center;
+}
+.pch .cena {
+  display: flex;
+  gap: 8px;
+}
+.pch .cena .month {
+  padding-top: 30px;
+}
+.pch .cena .month h6 {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.1000000015px;
+  text-align: left;
+  color: #02897a;
+}
+.pch .cena .month p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.1000000015px;
+  text-align: left;
+  color: #afafaf;
+}
+.pch span {
+  padding-top: 16px;
+  padding-left: 10px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0.200000003px;
+  text-align: left;
+}
+.pch .can {
+  padding-bottom: 16px;
+  padding-top: 16px;
+  padding-left: 16px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0.200000003px;
+  text-align: left;
+}
+.pch .ladg {
+  padding-left: 8px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0.200000003px;
+  text-align: left;
+}
+.pch button {
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 11px 20px;
+  margin-left: 8px;
+  margin-top: 49px;
+  background-color: #02897a;
+  transition: 0.3s ease;
+}
+
+.pch:hover h5 {
+  color: #fff;
+}
+
+.pch:hover button {
+  background-color: #fff;
+  color: #02897a;
+  transition: 0.3s ease;
+}
+
+.pch:hover {
+  border-radius: 8px;
+  background-color: #02897a;
+  color: #fff !important;
+}
+
+.pch:hover h1 {
+  color: #fff;
+}
+
+.pch:hover .uzd {
+  color: #fff !important;
+}
+
+.say {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.say span {
+  font-family: Poppins;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.200000003px;
+  text-align: left;
+  color: #22343d;
+}
+.say p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0.200000003px;
+  text-align: center;
+  color: #22343d;
+}
+
+.foter_top {
+  display: flex;
+  margin-bottom: 157px;
+  align-items: center;
+  justify-content: space-between;
+}
+.foter_top .cart1 {
+  padding: 28px 26px 23px 26px;
+  border-radius: 5px;
+  max-width: 327px;
+  width: 100%;
+  border: 1px solid #dedede;
+}
+.foter_top .cart1 img {
+  padding-bottom: 16px;
+}
+.foter_top .cart1 .teximg {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.foter_top .cart1 .productt {
+  padding-bottom: 16px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.200000003px;
+  text-align: left;
+  color: #737373;
+}
+
+.wahed {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.200000003px;
+  text-align: left;
+  color: #02897a;
+}
+
+.desig {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.200000003px;
+  text-align: left;
+}
+
+.foter {
+  height: 355px;
+  justify-content: space-between;
+  border-radius: 32px;
+  padding-top: 20px;
+  display: flex;
+  background-color: #02897a;
+}
+.foter .card_left h4 {
+  padding-top: 25px;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48.45px;
+  text-align: left;
+  color: white;
+  max-width: 510px;
+  width: 100%;
+  padding-left: 51px;
+}
+.foter .card_left button {
+  cursor: pointer;
+  margin: 68px 0px 56px 51px;
+  padding: 13px 35px 7px 33px;
+  border: none;
+  border-radius: 8px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  color: #02897a;
+  background-color: #fff;
+}
+
+.card_foter {
+  margin-bottom: 50px;
 }/*# sourceMappingURL=main.css.map */
